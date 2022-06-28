@@ -25,7 +25,7 @@ import { selectSong } from '../actions';
 
   render() {
     return (
-      <div className='ui divided list'>{this.renderList()}</div>
+      <div className='ui divided list ui segment'>{this.renderList()}</div>
     )
   }
 }
